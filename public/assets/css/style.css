@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+#provider:hover {
+    cursor: pointer;
+}
+
+#app_name {
+    cursor: pointer;
+}
+
+#user:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: #95cdd0;
+}
+
+#fix {
+    margin-bottom: 50px;
+}
+
+.login-body {
+    background-image: url("../img/laptop.jpeg");
+    background-size: cover;
+    margin-bottom: 250px;
+}
+
+.background-wrap {
+    position: fixed;
+    background-image: ("../img/laptop.jpeg");
+    background-size: cover;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-filter: sepia(50%);
+    /* Safari 6.0 - 9.0 */
+    filter: sepia(50%);
+}
+
+#log-in-user {
+    margin-top: 75px;
+    opacity: 0.93;
+}
+
+#nav-bar {
+    margin: 0px 20px 75px 20px;
+    padding: 20px;
+    color: #eee;
+    font-family: 'Barlow', sans-serif;
+}
+
+#nav-bar-other {
+    margin: 0px 20px 0px 20px;
+    padding: 20px;
+    color: #eee;
+    font-family: 'Barlow', sans-serif;
+}
+
+.nav-link {
+    color: #eee;
+    font-family: 'Barlow', sans-serif;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+i {
+    position: relative;
+    left: 45%;
+}
+
+label {
+    color: #172331;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#med_1 {
+    /*margin-left: -50px;*/
+    /*margin-bottom: 20px;*/
+    margin-right: 500px;
+}
+
+.button {
+    border-radius: 8px;
+    padding: 6px 20px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 2px;
+    background-color: #eee;
+    border-color: #172331;
+    color: #172331;
+}
+
+.button:hover {
+    background-color: #253f4b;
+    color: white;
+}
+
+.blurb_head {
+    text-align: center;
+}
+
+#logo {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.blurbs_container {
+    position: relative;
+    max-width: 1400px;
+    margin: 40px auto0 auto;
+    display: flex;
+}
+
+.blurb {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.blurbs_container_DR {
+    position: relative;
+    max-width: 1400px;
+    margin: 40px auto0 auto;
+    display: flex;
+}
+
+.blurb_DR {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    color: #172331;
+}
+
+.head_container {
+    background-size: cover;
+    height: 700px;
+}
+
+#head_container_index {
+    background-image: url("../img/ppl_date.jpeg");
+}
+
+#head_container_other {
+    background-image: url("../img/med_1_crop.png")
+}
+
+
+.banner {
+    align-self: center;
+    margin-left: 55px;
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+}
+
+#banner_info {
+    /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Fjalla One', sans-serif;*/
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Barlow', sans-serif;
+    margin-top: 50px;
+}
+
+#banner_info_DR {
+    /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Fjalla One', sans-serif;*/
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Barlow', sans-serif;
+    margin-top: 50px;
+    /*margin-bottom: 0px;*/
+}
+
+#btn-div {
+    margin-top: 15px;
+}
+
+.banner-main {
+    /*font-weight: bold;*/
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.banner-main-DR {
+    font-weight: bold;
+    font-size: 53px;
+    letter-spacing: 2px;
+}
+
+.banner-lead {
+    font-size: 30px;
+}
+
+.banner-lead-DR {
+    font-size: 30px;
+    color: #eee;
+}
+
+#banner_container {
+    margin-bottom: 0px;
+}
+
+#picture_div {
+    background-image: url("../img/doctors.jpeg");
+    background-size: cover;
+    height: 410px;
+    padding-right: 50px;
+}
+
+#provider_container {
+    margin-bottom: 40px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+#doctor_container {
+    margin-bottom: 80px;
+}
+
+#createADoc,
+{
+    margin-top: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eee;
+    padding: 25px;
+}
+
+#patient_profile {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#patient_doctor {
+    margin-bottom: 25px;
+}
+
+#add_patient {
+    margin-bottom: 25px;
+}
+
+
+/*#event {
+    height: 250px;
+}
+*/
+
+#sub_footer_HP {
+    color: #eee;
+    background-color: #253f4b;
+    padding-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#footer_other {
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    color: #eee;
+    background-color: #172331;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+#footer_login {
+    position: fixed;
+    bottom: 0;
+    color: #eee;
+    background-color: #172331;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+#footer {
+    color: #eee;
+    background-color: #172331;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
